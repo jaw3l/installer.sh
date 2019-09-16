@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source menus/security/.sh
+source menus/security/tor.sh
 

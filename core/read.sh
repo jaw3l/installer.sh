@@ -114,7 +114,7 @@ function read_development() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) atom.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -127,7 +127,7 @@ function read_social() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) slack.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -140,7 +140,7 @@ function read_productivity() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) chromium.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -153,7 +153,7 @@ function read_utilities() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) termius.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -166,7 +166,7 @@ function read_music_n_audio() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) spotify.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -179,7 +179,7 @@ function read_photo_n_video() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) vlc.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -192,7 +192,7 @@ function read_entertainment() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) plex.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -205,7 +205,7 @@ function read_server_n_cloud() {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) livepatch.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -218,7 +218,7 @@ function read_security () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) tor.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -231,7 +231,7 @@ function read_art_n_design () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) gimp.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -244,7 +244,7 @@ function read_devices_n_iot () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) mosquitto.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -257,7 +257,7 @@ function read_finance () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) electrum.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -270,7 +270,7 @@ function read_news_n_weather () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) winds.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -283,7 +283,7 @@ function read_health_n_fitness () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) koombo.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -296,7 +296,7 @@ function read_education () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) ktouch.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -309,7 +309,7 @@ function read_personalisation () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) ubuntu_mate.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -322,7 +322,7 @@ function read_book_n_reference () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) cool_reader.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
@@ -335,7 +335,7 @@ function read_games () {
     end_Terminal
     read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
     case $choice in
-        [1]) add_user.sh ;;
+        [1]) 0ad.sh ;;
         [2]) script2 ;;
         [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
         [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;

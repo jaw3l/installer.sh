@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-source menus/finance/.sh
+source menus/finance/electrum.sh

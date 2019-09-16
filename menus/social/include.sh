@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source menus/social/.sh
+source menus/social/slack.sh
 

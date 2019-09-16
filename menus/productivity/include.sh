@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source menus/productivity/.sh
+source menus/productivity/chromium.sh
 

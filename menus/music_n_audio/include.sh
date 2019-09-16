@@ -2,6 +2,6 @@
 
 #!/usr/bin/env bash
 
-source menus/music_n_audio/.sh
+source menus/music_n_audio/spotify.sh
 
 

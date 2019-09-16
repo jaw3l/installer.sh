@@ -139,7 +139,7 @@ menu_development() {
     echo "|=====================================|"
     echo "|=       D E V E L O P M E N T       =|"
     echo "|=====================================|"
-    echo "1. x"
+    echo "1. Atom"
     echo "2. y"
     
     echo "--------------"
@@ -152,7 +152,7 @@ menu_social() {
     echo "|=====================================|"
     echo "|=            S O C I A L            =|"
     echo "|=====================================|"
-    echo "1. x"
+    echo "1. Slack"
     echo "2. y"
     
     echo "--------------"
@@ -165,7 +165,7 @@ menu_productivity() {
     echo "|=====================================|"
     echo "|=      P R O D U C T I V I T Y      =|"
     echo "|=====================================|"
-    echo "1. x"
+    echo "1. Chromium"
     echo "2. y"
     
     echo "--------------"
@@ -178,7 +178,7 @@ menu_utilities() {
     echo "|=====================================|"
     echo "|=         U T I L I T I E S         =|"
     echo "|=====================================|"
-    echo "1. x"
+    echo "1. Termius"
     echo "2. y"
     
     echo "--------------"
@@ -191,7 +191,7 @@ menu_music_n_audio() {
     echo "|=======================================|"
     echo "|=       M U S I C  &  A U D I O       =|"
     echo "|=======================================|"
-    echo "1. x"
+    echo "1. Spotify"
     echo "2. y"
     
     echo "--------------"
@@ -204,7 +204,7 @@ menu_photo_n_video() {
     echo "|==================================|"
     echo "|=   P H O T O   &   V I D E O    =|"
     echo "|==================================|"
-    echo "1. x"
+    echo "1. VLC"
     echo "2. y"
     
     echo "--------------"
@@ -217,7 +217,7 @@ menu_entertainment() {
     echo "|==================================|"
     echo "|=   E N T E R T A I N M E N T    =|"
     echo "|==================================|"
-    echo "1. x"
+    echo "1. Plex Media Server"
     echo "2. y"
     
     echo "--------------"
@@ -230,7 +230,7 @@ menu_server_n_cloud() {
     echo "|==================================|"
     echo "|=  S E R V E R   &   C L O U D   =|"
     echo "|==================================|"
-    echo "1. x"
+    echo "1. Canonical LivePatch"
     echo "2. y"
     
     echo "--------------"
@@ -243,7 +243,7 @@ menu_security() {
     echo "|==================================|"
     echo "|=         S E C U R I T Y        =|"
     echo "|==================================|"
-    echo "1. x"
+    echo "1. Tor Client"
     echo "2. y"
     
     echo "--------------"
@@ -256,7 +256,7 @@ menu_art_n_design(){
     echo "|================================|"
     echo "|=   A R T   &   D E S I G N    =|"
     echo "|================================|"
-    echo "1. x"
+    echo "1. GIMP"
     echo "2. y"
     
     echo "--------------"
@@ -269,7 +269,7 @@ menu_devices_n_iot(){
     echo "|================================|"
     echo "|=  D E V I C E S   &   I O T   =|"
     echo "|================================|"
-    echo "1. x"
+    echo "1. Mosquitto"
     echo "2. y"
     
     echo "--------------"
@@ -282,7 +282,7 @@ menu_finance(){
     echo "|================================|"
     echo "|=        F I N A N C E         =|"
     echo "|================================|"
-    echo "1. x"
+    echo "1. Electrum"
     echo "2. y"
     
     echo "--------------"
@@ -295,7 +295,7 @@ menu_news_n_weather(){
     echo "|==========================================|"
     echo "|=      N E W S   &   W E A T H E R       =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. Winds"
     echo "2. y"
     
     echo "--------------"
@@ -308,7 +308,7 @@ menu_health_n_fitness(){
     echo "|==========================================|"
     echo "|=    H E A L T H   &   F I T N E S S     =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. Koombo"
     echo "2. y"
     
     echo "--------------"
@@ -321,7 +321,7 @@ menu_education(){
     echo "|==========================================|"
     echo "|=           E D U C A T I O N            =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. KTouch"
     echo "2. y"
     
     echo "--------------"
@@ -334,7 +334,7 @@ menu_personalisation(){
     echo "|==========================================|"
     echo "|=     P E R S O N A L I S A T I O N      =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. Ubuntu Mate"
     echo "2. y"
     
     echo "--------------"
@@ -347,7 +347,7 @@ menu_books_n_reference(){
     echo "|==========================================|"
     echo "|=   B O O K S   &   R E F E R E N C E    =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. Cool Reader 3"
     echo "2. y"
     
     echo "--------------"
@@ -360,7 +360,7 @@ menu_games(){
     echo "|==========================================|"
     echo "|=               G A M E S                =|"
     echo "|==========================================|"
-    echo "1. x"
+    echo "1. 0 A.D."
     echo "2. y"
     
     echo "--------------"

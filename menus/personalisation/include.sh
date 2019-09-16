@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source menus/personalisation/.sh
+source menus/personalisation/ubuntu_mate.sh
 

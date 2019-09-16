@@ -6,6 +6,8 @@ source menus/social/include.sh
 
 source menus/productivity/include.sh
 
+source menus/utilities/include.sh
+
 source menus/music_n_audio/include.sh
 
 source menus/photo_n_video/include.sh

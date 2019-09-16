@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-source menus/education/.sh
+source menus/education/ktouch.sh
 
