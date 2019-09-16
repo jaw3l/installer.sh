@@ -31,6 +31,18 @@ then
     continue
 fi
 
+source menus/include.sh
+status=$?
+if test [$status == 1]
+then
+    printf "${red}[ ERROR ] ${rescol}Something went wrong. Please re-install the script."
+    sleep 2
+elif test [$status == 0]
+then
+    continue
+fi
+
+
 
 # Trap Force Quits
 trap '' SIGINT SIGQUIT SIGTSTP

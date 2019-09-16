@@ -6,8 +6,6 @@
 # Description: Imports scripts.  #
 ##################################
 
-source sys/test.sh
-
 source sys/upgrade.sh
 
 source sys/git.sh

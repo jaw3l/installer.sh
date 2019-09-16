@@ -92,98 +92,255 @@ read_tsp() {
 }
 
 function read_featured () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1] | [Uu][Pp][Gg][Rr][Aa][Dd][Ee]) upgrade.sh ;;
+        [2] | [Pp][Yy][Tt][Hh][Oo][Nn] | [Pp][Yy]) python.sh ;;
+        [3] | [Gg][Ii][Tt]) git.sh ;;
+        [4] | [Bb][Uu][Ii][Ll][Dd][][Ee][Ss][Ss][Ee][Nn][Tt][Ii][Aa][Ll] | [Bb][Ee]) build_essential.sh;;
+        [5] | [Ff][Ff][Mm][Pp][Ee][Gg]) ffmpeg.sh ;;
+        [6] | [Oo][Pp][Uu][Ss] | [Ll][Ii][Bb][][Oo][Pp][Uu][Ss]) libopus.sh ;;
+        
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_development() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_social() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_productivity() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_utilities() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_music_n_audio() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_photo_n_video() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_entertainment() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_server_n_cloud() {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_security () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_art_n_design () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_devices_n_iot () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_finance () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_news_n_weather () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_health_n_fitness () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_education () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_personalisation () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_book_n_reference () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 function read_games () {
-    clear
-    pause
+    local choice
+    end_Terminal
+    read -p "${red}[ ${rescol}1 - 2 ${red}]${rescol}: " choice
+    case $choice in
+        [1]) add_user.sh ;;
+        [2]) script2 ;;
+        [Bb] | [:][Bb] | [Bb][Aa][Cc][Kk]) exec $0;;
+        [Qq] | [:][Qq] | [Qq][Uu][Ii][Tt]) exit 0;;
+        *) printf "${red}[ ERROR ]${rescol} Please select number from range." && sleep 2
+    esac
 }
 
 
