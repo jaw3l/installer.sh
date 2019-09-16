@@ -299,10 +299,10 @@ menu_news_n_weather(){
     echo "q. Quit"
 }
 
-menu_news_n_weather(){
+menu_health_n_fitness(){
     clear
     echo "|==========================================|"
-    echo "|=      N E W S   &   W E A T H E R       =|"
+    echo "|=    H E A L T H   &   F I T N E S S     =|"
     echo "|==========================================|"
     echo "1. x"
     echo "2. y"
@@ -312,5 +312,55 @@ menu_news_n_weather(){
     echo "q. Quit"
 }
 
+menu_education(){
+    clear
+    echo "|==========================================|"
+    echo "|=           E D U C A T I O N            =|"
+    echo "|==========================================|"
+    echo "1. x"
+    echo "2. y"
+    
+    echo "--------------"
+    echo "b. Back"
+    echo "q. Quit"
+}
 
+menu_personalisation(){
+    clear
+    echo "|==========================================|"
+    echo "|=     P E R S O N A L I S A T I O N      =|"
+    echo "|==========================================|"
+    echo "1. x"
+    echo "2. y"
+    
+    echo "--------------"
+    echo "b. Back"
+    echo "q. Quit"
+}
+
+menu_books_n_reference(){
+    clear
+    echo "|==========================================|"
+    echo "|=   B O O K S   &   R E F E R E N C E    =|"
+    echo "|==========================================|"
+    echo "1. x"
+    echo "2. y"
+    
+    echo "--------------"
+    echo "b. Back"
+    echo "q. Quit"
+}
+
+menu_games(){
+    clear
+    echo "|==========================================|"
+    echo "|=               G A M E S                =|"
+    echo "|==========================================|"
+    echo "1. x"
+    echo "2. y"
+    
+    echo "--------------"
+    echo "b. Back"
+    echo "q. Quit"
+}
 
